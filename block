@@ -20,21 +20,14 @@
     ]
   },
   {
-    "remarks": "Google cn 直连",
-    "outboundTag": "direct",
-    "domain": [
-      "domain:googleapis.cn",
-      "domain:gstatic.com"
-    ]
-  },
-  {
     "remarks": "代理",
     "outboundTag": "proxy",
     "domain": [
       "geosite:gfw",
       "geosite:greatfire",
       "v2.hysteria.network",
-      "stackpath.bootstrapcdn.com"
+      "stackpath.bootstrapcdn.com",
+      "fonts.googleapis.com"
     ],
     "ip": [
       "1.0.0.1",
