@@ -23,7 +23,8 @@
     "remarks": "直连",
     "outboundTag": "direct",
     "domain": [
-      "fonts.googleapis.com"
+      "fonts.googleapis.com",
+      "fonts.gstatic.com"
     ]
   },
   {
