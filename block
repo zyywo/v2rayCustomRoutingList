@@ -20,14 +20,20 @@
     ]
   },
   {
+    "remarks": "直连",
+    "outboundTag": "direct",
+    "domain": [
+      "fonts.googleapis.com"
+    ]
+  },
+  {
     "remarks": "代理",
     "outboundTag": "proxy",
     "domain": [
       "geosite:gfw",
       "geosite:greatfire",
       "v2.hysteria.network",
-      "stackpath.bootstrapcdn.com",
-      "fonts.googleapis.com"
+      "stackpath.bootstrapcdn.com"
     ],
     "ip": [
       "1.0.0.1",
