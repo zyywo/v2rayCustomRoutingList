@@ -27,7 +27,8 @@
       "geosite:gfw",
       "geosite:greatfire",
       "v2.hysteria.network",
-      "stackpath.bootstrapcdn.com"
+      "stackpath.bootstrapcdn.com",
+      "freedownloadmanager.org"
     ],
     "ip": [
       "1.0.0.1",
