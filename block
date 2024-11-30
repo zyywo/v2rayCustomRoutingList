@@ -28,7 +28,16 @@
       "geosite:greatfire",
       "v2.hysteria.network",
       "stackpath.bootstrapcdn.com",
-      "freedownloadmanager.org"
+      "freedownloadmanager.org",
+      "rutracker.org",
+      "sagernet.org",
+      "stackpath.bootstrapcdn.com",
+      "files-prodkeys.b-cdn.net",
+      "help.nextcloud.com",
+      "gitbook.io",
+      "fastly.steamstatic.com",
+      "api.steampowered.com",
+      "cloudflare.com"
     ],
     "ip": [
       "1.0.0.1",
