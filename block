@@ -37,7 +37,8 @@
       "gitbook.io",
       "fastly.steamstatic.com",
       "api.steampowered.com",
-      "cloudflare.com"
+      "cloudflare.com",
+      "prismic.io"
     ],
     "ip": [
       "1.0.0.1",
