@@ -38,7 +38,8 @@
       "fastly.steamstatic.com",
       "api.steampowered.com",
       "cloudflare.com",
-      "prismic.io"
+      "prismic.io",
+      "download.docker.com"
     ],
     "ip": [
       "1.0.0.1",
