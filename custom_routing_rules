@@ -1,3 +1,6 @@
+proxies:
+  - name: "direct"
+    type: direct
 rules:
   - DOMAIN-SUFFIX,bilibili.com,DIRECT,tcp
   - DOMAIN,fonts.googleapis.com,DIRECT
