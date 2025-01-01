@@ -3,7 +3,28 @@ proxies:
     type: direct
 rules:
   - DOMAIN,fonts.googleapis.com,DIRECT
-  - DOMAIN,google.com,PROXY
+  - DOMAIN,fonts.gstatic.com,DIRECT
+  - DOMAIN,v2.hysteria.network,PROXY
+  - DOMAIN,stackpath.bootstrapcdn.com,PROXY
+  - DOMAIN,freedownloadmanager.org,PROXY
+  - DOMAIN,rutracker.org,PROXY
+  - DOMAIN,sagernet.org,PROXY
+  - DOMAIN,files-prodkeys.b-cdn.net,PROXY
+  - DOMAIN,help.nextcloud.com,PROXY
+  - DOMAIN,gitbook.io,PROXY
+  - DOMAIN,fastly.steamstatic.com,PROXY
+  - DOMAIN,api.steampowered.com,PROXY
+  - DOMAIN,cloudflare.com,PROXY
+  - DOMAIN,prismic.io,PROXY
+  - DOMAIN,download.docker.com,PROXY
+  - DOMAIN,bayun.me,PROXY
+  - DOMAIN,8yun.me,PROXY
+  - DOMAIN,releases.pagure.org,PROXY
+  - DOMAIN,imwmi.com,PROXY
+  - DOMAIN,chezzo.com,PROXY
+  - DOMAIN,aloxaf.com,PROXY
+  - DOMAIN,truenas.com,PROXY
+  - DOMAIN,qy0.ru,PROXY
   - GEOSITE,gfw,PROXY
   - GEOSITE,greatfire,PROXY
   - GEOIP,private,DIRECT,no-resolve
