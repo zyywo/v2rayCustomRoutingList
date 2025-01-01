@@ -4,20 +4,8 @@ proxies:
 rules:
   - DOMAIN,fonts.googleapis.com,DIRECT
   - DOMAIN,google.com,PROXY
-  #- DOMAIN-KEYWORD,baidu,DIRECT
-  #- IP-CIDR,127.0.0.0/8,DIRECT
-  #- SRC-IP-CIDR,192.168.0.0/16,DIRECT
-  #- DST-PORT,3389/445,DIRECT
-  #- GEOSITE,category-ads-all,REJECT
-  #- GEOSITE,icloud@cn,DIRECT
-  #- GEOSITE,apple@cn,DIRECT
-  #- GEOSITE,apple-cn,DIRECT
-  #- GEOSITE,microsoft@cn,DIRECT
-  #- GEOSITE,geolocation-cn,DIRECT
-  #- GEOSITE,geolocation-!cn,PROXY
   - GEOSITE,gfw,PROXY
   - GEOSITE,greatfire,PROXY
   - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,cn,DIRECT
 
   - MATCH,DIRECT
