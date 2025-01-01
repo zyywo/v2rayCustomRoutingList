@@ -25,6 +25,7 @@ rules:
   - DOMAIN,aloxaf.com,PROXY
   - DOMAIN,truenas.com,PROXY
   - DOMAIN,qy0.ru,PROXY
+  - DOMAIN,cataclysmdda.org,PROXY
   - GEOSITE,gfw,PROXY
   - GEOSITE,greatfire,PROXY
   - GEOIP,private,DIRECT,no-resolve
