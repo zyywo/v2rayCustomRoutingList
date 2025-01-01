@@ -7,26 +7,27 @@ rules:
   - DOMAIN,v2.hysteria.network,PROXY
   - DOMAIN,stackpath.bootstrapcdn.com,PROXY
   - DOMAIN,freedownloadmanager.org,PROXY
-  - DOMAIN,rutracker.org,PROXY
-  - DOMAIN,sagernet.org,PROXY
+  - DOMAIN-SUFFIX,rutracker.org,PROXY
+  - DOMAIN-SUFFIX,sagernet.org,PROXY
   - DOMAIN,files-prodkeys.b-cdn.net,PROXY
   - DOMAIN,help.nextcloud.com,PROXY
-  - DOMAIN,gitbook.io,PROXY
+  - DOMAIN-SUFFIX,gitbook.io,PROXY
   - DOMAIN,fastly.steamstatic.com,PROXY
   - DOMAIN,api.steampowered.com,PROXY
-  - DOMAIN,cloudflare.com,PROXY
-  - DOMAIN,prismic.io,PROXY
+  - DOMAIN-SUFFIX,cloudflare.com,PROXY
+  - DOMAIN-SUFFIX,prismic.io,PROXY
   - DOMAIN,download.docker.com,PROXY
-  - DOMAIN,bayun.me,PROXY
-  - DOMAIN,8yun.me,PROXY
+  - DOMAIN-SUFFIX,bayun.me,PROXY
+  - DOMAIN-SUFFIX,8yun.me,PROXY
   - DOMAIN,releases.pagure.org,PROXY
-  - DOMAIN,imwmi.com,PROXY
-  - DOMAIN,chezzo.com,PROXY
-  - DOMAIN,aloxaf.com,PROXY
-  - DOMAIN,truenas.com,PROXY
+  - DOMAIN-SUFFIX,imwmi.com,PROXY
+  - DOMAIN-SUFFIX,chezzo.com,PROXY
+  - DOMAIN-SUFFIX,aloxaf.com,PROXY
+  - DOMAIN-SUFFIX,truenas.com,PROXY
   - DOMAIN-SUFFIX,tiktokcdn-us.com,PROXY
-  - DOMAIN,qy0.ru,PROXY
-  - DOMAIN,cataclysmdda.org,PROXY
+  - DOMAIN-SUFFIX,qy0.ru,PROXY
+  - DOMAIN-SUFFIX,cataclysmdda.org,PROXY
+  - DOMAIN-SUFFIX,tiktokcdn.com,PROXY
   - GEOSITE,gfw,PROXY
   - GEOSITE,greatfire,PROXY
   - GEOIP,private,DIRECT,no-resolve
