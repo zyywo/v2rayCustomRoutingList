@@ -28,6 +28,7 @@ rules:
   - DOMAIN-SUFFIX,qy0.ru,PROXY
   - DOMAIN-SUFFIX,cataclysmdda.org,PROXY
   - DOMAIN-SUFFIX,tiktokcdn.com,PROXY
+  - DOMAIN-SUFFIX,tiktokv.us,PROXY
   - GEOSITE,gfw,PROXY
   - GEOSITE,greatfire,PROXY
   - GEOIP,private,DIRECT,no-resolve
