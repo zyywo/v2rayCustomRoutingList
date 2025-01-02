@@ -1,2 +1,3 @@
-- DOMAIN,api.ipify.org,PROXY
-- DOMAIN-SUFFIX,metacubex.one,PROXY
+payload:
+- 'api.ipify.org'
+- 'metacubex.one'
