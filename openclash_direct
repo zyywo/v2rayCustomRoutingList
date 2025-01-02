@@ -2,5 +2,6 @@ payload:
 - DOMAIN,fonts.googleapis.com
 - DOMAIN,fonts.gstatic.com
 - DOMAIN,services.googleapis.cn
+- DOMAIN,connectivitycheck.gstatic.com
 - DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
