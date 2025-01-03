@@ -2,35 +2,32 @@ proxies:
   - name: "direct"
     type: direct
 rules:
-  - DOMAIN,fonts.googleapis.com,DIRECT
-  - DOMAIN,fonts.gstatic.com,DIRECT
-  - DOMAIN,v2.hysteria.network,PROXY
-  - DOMAIN,stackpath.bootstrapcdn.com,PROXY
-  - DOMAIN,freedownloadmanager.org,PROXY
-  - DOMAIN-SUFFIX,rutracker.org,PROXY
-  - DOMAIN-SUFFIX,sagernet.org,PROXY
-  - DOMAIN,files-prodkeys.b-cdn.net,PROXY
-  - DOMAIN,help.nextcloud.com,PROXY
-  - DOMAIN-SUFFIX,gitbook.io,PROXY
-  - DOMAIN,fastly.steamstatic.com,PROXY
-  - DOMAIN,api.steampowered.com,PROXY
-  - DOMAIN-SUFFIX,cloudflare.com,PROXY
-  - DOMAIN-SUFFIX,prismic.io,PROXY
-  - DOMAIN,download.docker.com,PROXY
-  - DOMAIN-SUFFIX,bayun.me,PROXY
-  - DOMAIN-SUFFIX,8yun.me,PROXY
-  - DOMAIN,releases.pagure.org,PROXY
-  - DOMAIN-SUFFIX,imwmi.com,PROXY
-  - DOMAIN-SUFFIX,chezzo.com,PROXY
-  - DOMAIN-SUFFIX,aloxaf.com,PROXY
-  - DOMAIN-SUFFIX,truenas.com,PROXY
-  - DOMAIN-SUFFIX,tiktokcdn-us.com,PROXY
-  - DOMAIN-SUFFIX,qy0.ru,PROXY
-  - DOMAIN-SUFFIX,cataclysmdda.org,PROXY
-  - DOMAIN-SUFFIX,tiktokcdn.com,PROXY
-  - DOMAIN-SUFFIX,tiktokv.us,PROXY
-  - GEOSITE,gfw,PROXY
-  - GEOSITE,greatfire,PROXY
-  - GEOIP,private,DIRECT,no-resolve
-
-  - MATCH,DIRECT
+- RULE-SET,自定义direct规则,DIRECT
+- RULE-SET,自定义代理规则,PROXY
+- RULE-SET,代理域名列表,PROXY
+- GEOSITE,gfw,PROXY
+- GEOSITE,greatfire,PROXY
+- GEOIP,private,DIRECT,no-resolve
+- MATCH,DIRECT
+rule-providers:
+  自定义direct规则:
+    type: http
+    behavior: classical
+    path: "./rule_provider/自定义direct规则.yaml"
+    format: yaml
+    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/refs/heads/master/openclash_direct
+    interval: 86400
+  自定义代理规则:
+    type: http
+    behavior: classical
+    path: "./rule_provider/自定义代理规则.yaml"
+    format: yaml
+    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/refs/heads/master/openclash_proxy
+    interval: 86400
+  代理域名列表:
+    type: http
+    behavior: domain
+    path: "./rule_provider/代理域名列表.yaml"
+    format: yaml
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
+    interval: 86400
