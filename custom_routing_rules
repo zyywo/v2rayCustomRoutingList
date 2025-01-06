@@ -1,6 +1,11 @@
 proxies:
   - name: "direct"
     type: direct
+dns:
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - '*.lan'
+    - '*.zhangyongyao.com'
 rules:
 - RULE-SET,自定义direct规则,DIRECT
 - RULE-SET,自定义代理规则,PROXY
