@@ -14,6 +14,7 @@ rules:
 - GEOSITE,greatfire,PROXY
 - GEOIP,private,DIRECT,no-resolve
 - MATCH,DIRECT
+
 rule-providers:
   自定义direct规则:
     type: http
