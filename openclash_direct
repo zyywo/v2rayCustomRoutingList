@@ -1,8 +1,8 @@
 payload:
 - DOMAIN,fonts.googleapis.com
 - DOMAIN,fonts.gstatic.com
-- DOMAIN,lancache.steamcontent.com
 - DOMAIN,connectivitycheck.gstatic.com
+- DOMAIN,lancache.steamcontent.com
 - DOMAIN,cdn.fastly.steamstatic.com
 - DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
