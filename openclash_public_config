@@ -6,6 +6,9 @@ dns:
   fake-ip-filter:
     - '*.lan'
     - '*.zhangyongyao.com'
+    - '*.googleapis.cn'
+    - '*.xn--ngstr-lra8j.com'
+    - 'fonts.gstatic.com'
 rules:
 - RULE-SET,自定义direct规则,DIRECT
 - RULE-SET,自定义代理规则,PROXY
