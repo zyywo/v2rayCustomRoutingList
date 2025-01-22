@@ -11,6 +11,7 @@ payload:
 - DOMAIN,download.docker.com
 - DOMAIN,releases.pagure.org
 - DOMAIN-SUFFIX,rutracker.org
+- DOMAIN-SUFFIX,uvnc.com
 - DOMAIN-SUFFIX,sagernet.org
 - DOMAIN-SUFFIX,gitbook.io
 - DOMAIN-SUFFIX,cloudflare.com
