@@ -2,13 +2,19 @@ proxies:
   - name: "direct"
     type: direct
 dns:
+  use-system-hosts: true
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - '*.lan'
+    - '.lan'
     - '*.zhangyongyao.com'
     - '*.googleapis.cn'
-    - '*.xn--ngstr-lra8j.com'
+    - '+.xn--ngstr-lra8j.com'
     - 'fonts.gstatic.com'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+    - https://208.67.222.123/dns-query
 rules:
 - RULE-SET,自定义direct规则,DIRECT
 - RULE-SET,自定义代理规则,PROXY
