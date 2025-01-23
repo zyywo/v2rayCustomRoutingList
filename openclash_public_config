@@ -17,6 +17,10 @@ dns:
     'geosite:cn':
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    'rule-set:代理域名列表':
+    - tls://8.8.4.4
+    - tls://1.1.1.1
+    - tls://8.8.8.8
   nameserver:
     - tls://8.8.4.4
     - tls://1.1.1.1
