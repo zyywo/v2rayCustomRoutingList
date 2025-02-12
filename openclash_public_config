@@ -43,14 +43,14 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/自定义direct规则.yaml"
     format: yaml
-    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/refs/heads/master/openclash_direct
+    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/master/openclash_direct
     interval: 86400
   自定义代理规则:
     type: http
     behavior: classical
     path: "./rule_provider/自定义代理规则.yaml"
     format: yaml
-    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/refs/heads/master/openclash_proxy
+    url: https://raw.githubusercontent.com/zyywo/v2rayCustomRoutingList/master/openclash_proxy
     interval: 86400
   代理域名列表:
     type: http
