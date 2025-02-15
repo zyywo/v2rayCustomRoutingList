@@ -10,6 +10,7 @@ payload:
 - DOMAIN,api.steampowered.com
 - DOMAIN,download.docker.com
 - DOMAIN,releases.pagure.org
+- DOMAIN,download.sqlitebrowser.org
 - DOMAIN-SUFFIX,course.rs
 - DOMAIN-SUFFIX,gofrp.org
 - DOMAIN-SUFFIX,rutracker.org
