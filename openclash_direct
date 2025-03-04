@@ -4,6 +4,8 @@ payload:
 - DOMAIN,connectivitycheck.gstatic.com
 - DOMAIN,lancache.steamcontent.com
 - DOMAIN,cdn.fastly.steamstatic.com
+- DOMAIN,rewards.microsoft.com
+- DOMAIN,www.bing.com
 - DOMAIN-SUFFIX,googleapis.cn
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 - DOMAIN-SUFFIX,zhangyongyao.com
