@@ -24,10 +24,10 @@ dns:
     - tls://8.8.4.4
     - tls://1.1.1.1
     - tls://8.8.8.8
+    'geosite:gfw,greatefire':
+    - https://1.1.1.1/dns-query
   nameserver:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
-    - tls://8.8.8.8
+    - https://1.0.0.1/dns-query
 rules:
 - GEOIP,private,DIRECT,no-resolve
 - RULE-SET,自定义direct规则,DIRECT
