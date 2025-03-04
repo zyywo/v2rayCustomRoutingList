@@ -20,7 +20,7 @@ dns:
     'rule-set:自定义direct规则':
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    'rule-set:自定义代理规则,代理域名列表':
+    'rule-set:自定义代理规则':
     - tls://8.8.4.4
     - tls://1.1.1.1
     - tls://8.8.8.8
