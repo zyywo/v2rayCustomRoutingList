@@ -29,12 +29,11 @@ dns:
     - tls://1.1.1.1
     - tls://8.8.8.8
 rules:
+- GEOIP,private,DIRECT,no-resolve
 - RULE-SET,自定义direct规则,DIRECT
 - RULE-SET,自定义代理规则,PROXY
-- RULE-SET,代理域名列表,PROXY
 - GEOSITE,gfw,PROXY
 - GEOSITE,greatfire,PROXY
-- GEOIP,private,DIRECT,no-resolve
 - MATCH,DIRECT
 
 rule-providers:
