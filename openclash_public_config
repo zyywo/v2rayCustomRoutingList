@@ -24,7 +24,7 @@ dns:
     - tls://8.8.4.4
     - tls://1.1.1.1
     - tls://8.8.8.8
-    'geosite:gfw,greatefire':
+    'geosite:gfw,greatfire':
     - https://1.1.1.1/dns-query
   nameserver:
     - https://1.0.0.1/dns-query
