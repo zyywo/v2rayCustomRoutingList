@@ -27,7 +27,8 @@ dns:
     'geosite:gfw,greatfire':
     - https://1.1.1.1/dns-query
   nameserver:
-    - https://1.0.0.1/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 rules:
 - GEOIP,private,DIRECT,no-resolve
 - RULE-SET,自定义direct规则,DIRECT
